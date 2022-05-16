@@ -1,4 +1,4 @@
-function makeSlider(SliderName, inId, imgs = [], styles = ''){
+function makeSlider(SliderName, inId, imgs = [], stylesCss = ''){
     // console.log(imgs);
     let images = '';
     if(imgs.length > 0){
@@ -22,15 +22,9 @@ function makeSlider(SliderName, inId, imgs = [], styles = ''){
             display: none;
             // cursor: grab;
         }
-        `+styles+`
+        `+stylesCss+`
         </style>
         <section id="slider`+ SliderName +`">
-        <img class="img`+SliderName+`" src="/dev.png" alt="">
-        <img class="img`+SliderName+`" src="/img/1.png" alt="">
-        <img class="img`+SliderName+`" src="/img/2.jpg" alt="">
-        <img class="img`+SliderName+`" src="/img/3.jpg" alt="">
-        <img class="img`+SliderName+`" src="/img/4.PNG" alt="">
-        <img class="img`+SliderName+`" src="/img/5.png" alt="">
         `+images+`
         </section>
         <input type="button" value="next" id="nextSlider`+SliderName+`">
