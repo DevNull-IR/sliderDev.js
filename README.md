@@ -13,6 +13,6 @@ makeSlider('sliderName', 'sliderMap', ['urls images'], '.yourcss{yourcssCode}');
 
 <script src="./src/slider.js"></script>
 <script>
-  makeSlider('Myslider', 'slider', ['https://devnull-ali.ir/assets/img/portfolio/safe.png']);
+  makeSlider('Myslider', 'slider', ['https://devnull-ali.ir/assets/img/portfolio/safe.png'], '.imgMyslider{margin: 2px;}');
 </script>
 ```
