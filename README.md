@@ -17,7 +17,11 @@ makeSlider('sliderName', 'sliderMap', ['urls images'], '.yourcss{yourcssCode}');
 </script>
 ```
 arg one: sliderName
+
 arg tow: id section top
+
 arg there: Enter the link of the images as an array
+
 arg foor: If you want a custom style, enter your css code here
+
 arg foor description: You must use the \[name\] img class to access the photos. Enter the name used in the slider instead of \[name\]
